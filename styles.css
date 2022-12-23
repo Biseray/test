@@ -51,6 +51,51 @@ animation: loaderbackground 4s  forwards;
     animation: lefttext 2500ms forwards ;
 }
 
+.annimationImg{
+    animation: menu 2s forwards;
+    transform: scale(0.1);
+    animation-delay: 3.5s;
+    
+}
+
+
+
+
+@keyframes menu {
+    0% {
+
+        transform: scale(0.1);
+    }
+
+    
+
+    100% {
+        transform: scale(1);
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* animation a B loading  */
 /* keyframes  */
 
