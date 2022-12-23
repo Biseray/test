@@ -27,8 +27,6 @@ let imgGalery = [
 "DSCF1536.jpg",
 "DSCF1536-2.jpg",
 "DSCF1535.jpg",
-// COULEUR
-
 "DSCF0587.jpg",
 "biseray16.jpg",
 "biseray17.jpg",
@@ -39,7 +37,7 @@ let imgGalery = [
 "biseray22.jpg",
 "biseray8.jpg",
 "biseray2.png",
-"biseray11.jpg",
+"biseray11.jpg"
 ];
 
 const contenaire = document.querySelector(".container");
