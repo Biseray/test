@@ -38,6 +38,7 @@ let imgGalery = [
 "biseray8.jpg",
 "biseray2.png",
 "biseray11.jpg"
+
 ];
 
 const contenaire = document.querySelector(".container");
