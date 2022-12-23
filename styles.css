@@ -7,7 +7,7 @@
 position: fixed;
 background-color: black;
 inset: 0;
-animation: loaderbackground 5s  forwards;
+animation: loaderbackground 4s  forwards;
 
 }
 
@@ -42,13 +42,13 @@ animation: loaderbackground 5s  forwards;
 }
 
 .text-b{ 
-    animation: rightttext 3s forwards ;
+    animation: rightttext 2500ms forwards ;
    
 
 }
 
 .text-a {
-    animation: lefttext 3s forwards ;
+    animation: lefttext 2500ms forwards ;
 }
 
 /* animation a B loading  */
@@ -56,7 +56,7 @@ animation: loaderbackground 5s  forwards;
 
 @keyframes lefttext{
     0% {
-        transform: translate(-2em);
+        transform: translate(-2.2em);
         opactiy: 0;
     }
     10% {
@@ -87,7 +87,7 @@ animation: loaderbackground 5s  forwards;
 
 @keyframes rightttext{
     0% {
-        transform: translate(2em);
+        transform: translate(2.2em);
         opactiy: 0;
     }
     10% {
@@ -118,16 +118,16 @@ animation: loaderbackground 5s  forwards;
 }
  
 header{
-    background-color: #111111de;
-    margin:0px ;
+    background-color: #1111119a;
+    margin: 0  ;
     color: #DBDBDB;
-    box-shadow: gray -0px 1px 2px;
+    box-shadow: rgb(12, 12, 12) -0px 1px 2px;
 }
 footer{
-    background-color: #111111de;
+    background-color: #11111100;
     margin:0px ;
     color: #DBDBDB;
-    box-shadow: gray -0px 1px 2px;
+    box-shadow: rgb(12, 12, 12) -0px 1px 2px;
     display: flex;
     justify-content: center;
      margin-top: 0;
@@ -183,7 +183,7 @@ main{
     width: 100%;
     margin: 0 ; 
  text-align: center;
-
+ margin: 0 -2px 0 -2px ;
    } 
    main {
 width: 100%;
